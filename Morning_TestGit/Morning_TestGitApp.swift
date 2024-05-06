@@ -2,7 +2,7 @@
 //  Morning_TestGitApp.swift
 //  Morning_TestGit
 //
-//  Created by Gerson Janhuel on 06/05/24.
+//  Created by Gerson Janhuel H on 06/05/24.
 //
 
 import SwiftUI
