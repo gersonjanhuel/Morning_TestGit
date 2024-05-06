@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ContentViewModel()
+    
+    
     var body: some View {
         VStack {
             
-            Text("Hello, world!")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            Text(viewModel.number)
+                .font(.title)
                 .padding(.vertical)
             
             Button {
